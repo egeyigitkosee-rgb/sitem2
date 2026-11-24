@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ege | Kişisel Web Sitesi</title>
+  <link rel="icon" type="image/jpeg" href="resim/maskot.jpg (2).jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Sabit Üst Menü -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#kapak" class="nav-brand">EGE</a>
+      <nav class="nav-links">
+        <a href="#kapak" class="nav-link active">Kapak</a>
+        <a href="#hakkimda" class="nav-link">Hakkımda</a>
+        <a href="#ilgi-alanlarim" class="nav-link">İlgi Alanlarım</a>
+        <a href="#iletisim" class="nav-link">İletişim</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- 1. Bölüm: Kapak -->
+    <section id="kapak" class="section hero-section">
+      <div class="hero-container">
+        <div class="hero-text-box">
+          <span class="hero-tag">KİŞİSEL SAYFA</span>
+          <h1 class="hero-title">Ege</h1>
+          <p class="hero-intro">Aktif yaşamı, sporu ve üretmeyi tutkuyla hayatımın merkezine koyuyorum.</p>
+          <a href="#hakkimda" class="btn btn-primary">Beni Tanıyın</a>
+        </div>
+        <div class="hero-image-box">
+          <img src="resim/kapak.jpg.jpg" alt="Açık havada müzik sahnesi, spor sahası ve yiyecek alanını tepeden izleyen tilki kapak illüstrasyonu" class="hero-img">
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. Bölüm: Hakkımda -->
+    <section id="hakkimda" class="section about-section">
+      <div class="section-container">
+        <h2 class="section-title">Hakkımda</h2>
+        <div class="about-card">
+          <div class="about-image-wrapper">
+            <img src="resim/maskot.jpg (2).jpg" alt="Kızıl atkılı sevimli tilki maskot illüstrasyonu" class="about-img">
+            <span class="image-label">Maskot: Tilki</span>
+          </div>
+          <div class="about-content">
+            <p class="about-sentence">Hayatımın merkezinde her zaman hareket, disiplin ve spor yer alıyor.</p>
+            <p class="about-sentence">Yeni hedeflere koşmak ve aktif bir yaşam sürmek beni her gün heyecanlandırıyor.</p>
+            <p class="about-sentence">Sporun kazandırdığı dinamizm ve motivasyonla kendimi sürekli geliştirmeye devam ediyorum.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Bölüm: İlgi Alanlarım -->
+    <section id="ilgi-alanlarim" class="section interests-section">
+      <div class="section-container">
+        <h2 class="section-title">İlgi Alanlarım</h2>
+        <div class="cards-grid">
+          <!-- Kart 1: Müzik -->
+          <article class="interest-card">
+            <div class="card-img-wrapper">
+              <img src="resim/kart_1.jpg.jpg" alt="Müzik festivalinde sahne performansı ve dinleyiciler illüstrasyonu" class="card-img">
+            </div>
+            <div class="card-body">
+              <span class="card-tag">ALAN 01</span>
+              <h3 class="card-title">Müzik</h3>
+              <p class="card-text">Ritim ve melodilerle odaklanmak, günün temposunu yakalamak vazgeçilmezim.</p>
+            </div>
+          </article>
+
+          <!-- Kart 2: Spor -->
+          <article class="interest-card">
+            <div class="card-img-wrapper">
+              <img src="resim/kart_2.jpg.jpg" alt="Futbol sahası ve koşu pistinde antrenman yapanlar illüstrasyonu" class="card-img">
+            </div>
+            <div class="card-body">
+              <span class="card-tag">ALAN 02</span>
+              <h3 class="card-title">Spor</h3>
+              <p class="card-text">Fiziksel dayanıklılık, enerji ve düzenli antrenmanla her zaman zinde kalmak.</p>
+            </div>
+          </article>
+
+          <!-- Kart 3: Yemek -->
+          <article class="interest-card">
+            <div class="card-img-wrapper">
+              <img src="resim/kart_3.jpg.jpg" alt="Açık havada yemek kamyonları ve piknik masaları illüstrasyonu" class="card-img">
+            </div>
+            <div class="card-body">
+              <span class="card-tag">ALAN 03</span>
+              <h3 class="card-title">Yemek</h3>
+              <p class="card-text">Dengeli ve lezzetli beslenmeyle performansı yükseltmek ve yeni tatlar denemek.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Bölüm: İletişim -->
+    <section id="iletisim" class="section contact-section">
+      <div class="section-container">
+        <h2 class="section-title">İletişim</h2>
+        <div class="contact-card">
+          <p class="contact-lead">Benimle iletişime geçmek, fikir alışverişinde bulunmak veya ortak çalışmalar için aşağıdaki kanallardan ulaşabilirsiniz.</p>
+          <div class="contact-links-grid">
+            <a href="mailto:egeyigitkosee@gmail.com" class="btn contact-btn">
+              <span class="contact-platform">E-POSTA</span>
+              <span class="contact-address">egeyigitkosee@gmail.com</span>
+            </a>
+            <a href="https://github.com/egeyigitkosee" target="_blank" rel="noopener noreferrer" class="btn contact-btn">
+              <span class="contact-platform">GITHUB</span>
+              <span class="contact-address">github.com/egeyigitkosee</span>
+            </a>
+            <a href="https://www.linkedin.com/in/egeyigitkose" target="_blank" rel="noopener noreferrer" class="btn contact-btn">
+              <span class="contact-platform">LINKEDIN</span>
+              <span class="contact-address">linkedin.com/in/egeyigitkose</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Alt Bilgi (Footer) -->
+  <footer class="footer">
+    <div class="footer-container">
+      <p class="footer-ai-note">Bu sitedeki görseller yapay zekâ ile üretildi.</p>
+      <p class="footer-copy">Ege - Tüm hakları saklıdır.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
